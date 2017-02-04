@@ -8,14 +8,14 @@ BitBucket: https://bitbucket.org/brodie/cram/overview
 Build:
 
 ```
-docker build -t zeisss/cram-docker .
+docker build -t luebken/cram-docker .
 ```
 
 
 Usage: 
 
 ```
-alias cram='docker run -it -v $(pwd):$(pwd) -w $(pwd) zeisss/cram-docker'
+alias cram='docker run -it -v $(pwd):$(pwd) -w $(pwd) luebken/cram-docker'
 cram -h
 
 cat > simple.t <<EOF
