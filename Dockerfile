@@ -1,4 +1,4 @@
-FROM python:2.7.8 
+FROM centos:7
 
 ENV HOME /root
 WORKDIR /root
